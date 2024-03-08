@@ -1,0 +1,11 @@
+CompileFlags:
+  Remove:
+    - "-fconserve-stack"
+    - "-fno-allow-store-data-races"
+    - "-ftrivial-auto-var-init=zero"
+    - "-mpreferred-stack-boundary=3"
+    - '-mindirect-branch=thunk-extern'
+    - '-mindirect-branch-register'
+    - '-mindirect-branch-cs-prefix'
+    - '-mfunction-return=thunk-extern'
+    - '-mrecord-mcount'
